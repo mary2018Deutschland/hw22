@@ -1,0 +1,25 @@
+.container {
+    width: fit-content;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+.btn {
+    width: fit-content;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: lightblue;
+    border: none;
+    border-radius: 6px;
+    transition: background-color .4s;
+}
+
+.btn:hover {
+    background-color: rgb(142, 187, 201);
+}
